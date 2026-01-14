@@ -1,0 +1,68 @@
+/* Page */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  line-height: 1.4;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Table layout */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px auto;
+  font-size: 14px;
+}
+
+/* Caption */
+caption {
+  caption-side: bottom;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+/* Borders */
+th,
+td {
+  border: 1px solid #999;
+  padding: 8px;
+}
+
+/* Header row */
+thead th {
+  background-color: #ddd;
+  text-align: center;
+}
+
+/* Row group headings (Terrestrial, Jovian, Gas, Ice, Dwarf) */
+th[rowspan],
+th[scope="rowgroup"] {
+  background-color: #eee;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Planet names */
+th[scope="row"] {
+  background-color: #f5f5f5;
+  font-weight: normal;
+  text-align: left;
+}
+
+/* Notes column alignment */
+td:last-child {
+  text-align: left;
+}
+
+/* Zebra striping for readability */
+tbody tr:nth-child(even) td {
+  background-color: #fafafa;
+}
+
+/* Links */
+a {
+  color: #0645ad;
+}
